@@ -34,7 +34,7 @@ public class StockItem {
     }
 
     /**
-     * @param sellByDate Overloaded Constructor
+     * @param date Overloaded Constructor
      */
     public StockItem(Date date) {
         sellByDate = date;

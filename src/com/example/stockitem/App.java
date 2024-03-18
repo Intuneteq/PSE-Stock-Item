@@ -5,7 +5,7 @@ public class App {
         StockItem bob = new StockItem("Baked Beans 415g", 65, 15);
 
         bob.setPrice(80);
-        System.out.println(bob.toString());
+        System.out.println(bob);
 
         // Make one sale
         bob.doSales();
